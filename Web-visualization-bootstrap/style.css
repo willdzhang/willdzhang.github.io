@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+.navbar {
+    max-height: 60px;
+    background-color: white;
+    font-size: 30px;
+}
+.navigation .navbar-brand {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-weight: bold;
+    background-color: rgb(11, 173, 166);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 30px;
+}
+.navbar-brand:hover{
+    color: grey !important;
+}
+a {
+    color: grey;
+    font-size: 15px;
+}
+.sum-img {
+    width: 50%;
+    length: 50%;
+}
+.sum-img1 {
+    width: 100%;
+    length: 100%;
+}
+.vis-img {
+    width: 100%;
+    length: 100%;
+}
+.vis-img1 {
+    width: 100%;
+    length: 100%;
+}
+.rowv {
+    padding-bottom: 25px;
+}
+.title {
+    color: rgb(11, 173, 166);
+    font-weight: bold;
+    padding-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.box{
+    margin-top: 50px;
+    margin-bottom: 62px;
+    padding: 10px 10px 15px;
+    color: black;
+    background-color: white;
+}
+.footer{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(94, 94, 94);
+    font-size: 15px;
+    padding-top: 17px;
+    min-height: 60px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(11, 173, 166);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media(max-width: 900px) {
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    button{
+        margin-right: 20px;  
+    }
+}
